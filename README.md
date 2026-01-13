@@ -9,5 +9,7 @@ These are list of all my learning resources so far (I'll update more in the futu
 
 > [!NOTE]
 > My learning journey so far :
-- [x] python input output function 
+- [x] python input output function
+- [x] if, elif function
+- [x] flow control statement
 
