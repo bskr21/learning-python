@@ -8,4 +8,4 @@ print('The lenght of your name is:')
 print(len(my_name))
 print('what year was your born?') # ask for their year of birth
 my_age = input ('coba isi tahun lahir : ')
-print('Wow, now You are ' + str(2026 - int(my_age)) + ' this year')
+print('Wow, now You are ' + str(2026 - int(my_age)) + ' this year') # it transform my_age into int and after that transform in again into str
