@@ -14,15 +14,19 @@ while True: # main game looping
         print('Enter your move : (r)ock, (p)aper, (s)cissor, or type (q) for Quit Game')
         player_input = input('> ')
 
+        if player_input == 'q' :
+            print('Thank you for playing, see you next time 👋')
+            sys.exit()
         if player_input == 'r':
             print('ROCK! versus ...')
         elif player_input == 'p':
             print('PAPER! versus ...')
         elif player_input == 's':
             print('SCISSOR! versus ...')
-        elif player_input == 'q' :
-            print('Thank you for playing, see you next time 👋')
-            sys.exit()
+        else :
+            print('Please try again')
+            break
+        
             
         # computer randomly pick a number
         computer_input = int(random.randint(1, 3))
