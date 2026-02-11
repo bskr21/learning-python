@@ -1,6 +1,6 @@
 # Learn how to use Lambda to create a more simple function
 # Lambda is anonymous functions that can have any number of arguments  but only one expression
-# Lambda used for a simple short operation
+# Lambda used for a simple short operation like mapping, filtering, and sorting values in the list
 
 # Regular def function
 def square(x):
